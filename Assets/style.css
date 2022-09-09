@@ -1,0 +1,49 @@
+/* generals popup div */
+.popup-container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+    margin-top: -200px;
+    margin-left: -364px;
+}
+
+/* direct child of popup-container */
+.popup-container > button {
+    background-color: #000000;
+    color:#dddddd;
+    font-weight: bold;
+    font-size: 12px;
+    height: 25px;
+
+    position: absolute;
+    right: 0;
+    top: -28px;
+}
+
+.popup-container > a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+/* div of popup-content */
+.popup-content {
+	width: 728px;
+	height: 400px;
+    background-image: url("./Banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 3px 3px #ededed ;
+}
+
+/* .popup-content > .popup-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 160px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+.popup-content > .popup-info {
+    text-align: center;
+} */
