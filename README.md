@@ -8,7 +8,7 @@ How to apply banner ad
 
 
 ## What inside:
-### index.html (the main files for banner ad popup)
-### style.css (styling for the banner ad popup, inside Assets folder)
-### Banner.png (banner ad content)
-### popup-setup.js (banner ad popup setting, inside Script folder)
+#### index.html (the main files for banner ad popup)
+#### style.css (styling for the banner ad popup, inside Assets folder)
+#### Banner.png (banner ad content)
+#### popup-setup.js (banner ad popup setting, inside Script folder)
