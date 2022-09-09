@@ -1,5 +1,6 @@
 /* generals popup div */
 .popup-container {
+    z-index: 9999;
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -17,7 +18,7 @@
 
     position: absolute;
     right: 0;
-    top: -28px;
+    top: -25px;
 }
 
 .popup-container > a {
@@ -32,18 +33,5 @@
     background-image: url("./Banner.png");
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 1px 1px 3px 3px #ededed ;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-
-/* .popup-content > .popup-title {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 160px;
-    margin-top: 0px;
-    margin-bottom: -10px;
-}
-
-.popup-content > .popup-info {
-    text-align: center;
-} */

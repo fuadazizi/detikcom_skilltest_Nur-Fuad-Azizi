@@ -1,10 +1,10 @@
 # Code Development AD for detik.com skilltest
 
-How to apply banner ad
-1. Open file index.html
-2. Select and copy element of <div class="popup-container">
-3. Go to link `https://displaybanner.detik.com/2022/09/detikcom-m/detikcom_testpage.html`
-4. Look for tag `<!-- Balloonads --> <!-- E:balloonads -->`
+This will create a banner ad popup for webpage detik.com.
+
+- Open page index.html
+- The banner will close after user click CLOSE AD or after 30 seconds
+- If the banner page clicked, it will redirected to `https://inet.detik.com/`
 
 
 ## What inside:
